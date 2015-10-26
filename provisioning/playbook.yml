@@ -1,0 +1,14 @@
+---
+- name: Vagrant Python
+  hosts: default
+  user: vagrant
+  sudo: yes
+
+  roles:
+    - core
+    - supervisor
+    - nginx
+    - nodejs
+    - postgresql
+    - python
+    - ruby
