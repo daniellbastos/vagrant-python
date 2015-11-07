@@ -27,6 +27,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 1080, host: 1080 # maildump
   config.vm.network "forwarded_port", guest: 3000, host: 3000 # rails/nodejs
   config.vm.network "forwarded_port", guest: 5432, host: 5432 # postgresql
+  config.vm.network "forwarded_port", guest: 27017, host: 27017 # mongodb
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
