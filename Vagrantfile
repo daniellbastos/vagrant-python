@@ -58,7 +58,7 @@ Vagrant.configure(2) do |config|
   #   vb.memory = "1024"
   # end
   config.vm.provider "virtualbox" do |vb|
-    vb.customize ["modifyvm", :id, "--memory", "512"]
+    vb.customize ["modifyvm", :id, "--memory", "1024"]
     vb.name = "general-python"
   end
   # View the documentation for the provider you are using for more
