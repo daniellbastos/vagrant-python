@@ -32,8 +32,8 @@ vagrant plugin install vagrant-bindfs
 ```
 
 ```
-git clone https://github.com/allisson/vagrant-python-machine.git
-cd vagrant-python-machine
+git clone https://github.com/daniellbastos/vagrant-python.git
+cd vagrant-python
 vagrant up
 ```
 
